@@ -56,13 +56,18 @@ First of all, you need to download the ISO of Vmware ESXi 6.5
 https://my.vmware.com/web/vmware/details?downloadGroup=ESXI65U1&productId=614&rPId=21456
 
 Then download a software to create bootable ISO.  
-Personnaly i use ImgBurn, the installer is available in the Tools folder of this repository.
+Personnaly i use ImgBurn, the installer is available in the Tools folder of this repository, or just follow the link.
+http://www.imgburn.com/index.php?act=download
 
 Once you have finished to download the ISO, copy the content of the ISO, in a new folder. Let's call this folder **Files_original**
 
-Copy the content of the **Autodeploy** folder of this repo, at the root of the **Files_original** folder.  
+Copy the entire content of the **Autodeploy** folder of this repo, at the root of the **Files_original** folder.  
 You just copied the Kisckstart files and custom boot files... well, now lets create a new ISO !
 
+Launch ImgBurn and select **Create image file from files/folder**  
+![1-ImgBurn](/Pictures/1-ImgBurn.jpg)
+Choose the folder **Files_original** as the source for the ISO creation, then for destination... wherever you want.
+![2-ImgBurn](/Pictures/2-ImgBurn.jpg)
 
 
 
