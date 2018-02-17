@@ -78,16 +78,15 @@ Hit the box "patch boot information table".
 Finally you can build your ISO (you will be prompted for a name).
 
 Now, lets boot on this ISO to see the result.  
-As i have a Dell server, i will use the virtual media feature, from the iDRAC to mount the ISO on my server.  
+As i have a Dell server, i will use the virtual media feature, from the iDRAC to mount the ISO on my server and boot on it.  
 (Sorry for the french interface ahah)  
 ![5-iDRAC-VirtualMedia](/Pictures/5-iDRAC-VirtualMedia.jpg)
 
+If you have this menu, then you just have to choose wich ESXi you wich ton install.  
+![6-iDRAC-VirtualMedia](/Pictures/6-iDRAC-VirtualMedia.jpg)
 
-
-
-
-All servers mentionned above have their configuration in a KS file.
-There are two extra KS as well"features" :  
+All servers mentionned in differents points above have their configuration in a KS file.
+There are two extra KS "features" as well:  
 * A quick custom install
 * VmWare standard install (nothing configured infact)
 
