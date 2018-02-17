@@ -85,6 +85,9 @@ As i have a Dell server, i will use the virtual media feature, from the iDRAC to
 If you have this menu, then you just have to choose wich ESXi you wich ton install.  
 ![6-iDRAC-VirtualMedia](/Pictures/6-iDRAC-VirtualMedia.jpg)
 
+There we go ! Just have a coffea now.  
+![7-iDRAC-VirtualMedia](/Pictures/7-iDRAC-VirtualMedia.jpg)
+
 All servers mentionned in differents points above have their configuration in a KS file.
 There are two extra KS "features" as well:  
 * A quick custom install
