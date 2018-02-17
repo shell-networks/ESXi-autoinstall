@@ -5,6 +5,10 @@ Personnal project to automate deployment of Virtualisation part in my HomeLab
 
 ## 1 Home Lab Physical Servers
 
+Here is a small overview (sorry for the cabling mess.. Hey this is home lab after all !)
+
+![Home Lab picture](/Pictures/1-Home-Lab-Picture.jpg)
+
 There is two Dell PowerEdge R610 Servers with following Hardware configuration 
 
 - Esx01
