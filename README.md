@@ -66,8 +66,11 @@ You just copied the Kisckstart files and custom boot files... well, now lets cre
 
 Launch ImgBurn and select **Create image file from files/folder**  
 ![2-ImgBurn](/Pictures/2-ImgBurn.jpg)  
+
 Choose the folder **Files_original** as the source for the ISO creation, then for destination... wherever you want.
-![3-ImgBurn](/Pictures/3-ImgBurn.jpg)
+![3-ImgBurn](/Pictures/3-ImgBurn.jpg)  
+
+
 
 
 
