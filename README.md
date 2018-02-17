@@ -104,6 +104,14 @@ There are two extra KS "features" as well:
 
 5. ## TODO - reminders for myself :)
 
+[ ] Add some colors in the banner  
+[ ] Auto AD integration  
+[ ] Creation of a custom role "SHN-Virtu-Admins", this role will be full virtu admin  
+[ ] Map this role with AD group GG-Virtu  
+[ ] format local datastore in VMFS6  
+[ ] Syslog configuration  
+[ ] SNMP configuration  
+
 
 
 
