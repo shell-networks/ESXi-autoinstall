@@ -20,7 +20,9 @@ Here is a small overview (sorry for the cabling mess.. Hey this is home lab afte
 
 There is two Dell PowerEdge R610 Servers and a Cisco 3750G L3 switch.
 
-- Esx01
+Harware configuration for servers :
+
+- Esx01 (on top)
 
 2 Intel Xeon E5620  @2,4Ghz  
 96GB of DDR3 RAM  
@@ -29,7 +31,7 @@ There is two Dell PowerEdge R610 Servers and a Cisco 3750G L3 switch.
 4 integrated Gigabit Network interfaces (iSCSI compliant)  
 4 Additional Gigabit Network interfaces  
 
-- Esx02
+- Esx02 (obviously on bottom)
 
 Same config as first one but only 48GB of RAM
 
@@ -45,6 +47,23 @@ They are just nested ESXi to test configuration before apllying on "prod" ESXi
 Because sometimes, a picture is better than a thousand of words...
 
 4. ## How to use custom KS to build an autodeploy ISO
+
+First of all, you need to download the ISO of Vmware ESXi 6.5
+https://my.vmware.com/web/vmware/details?downloadGroup=ESXI65U1&productId=614&rPId=21456
+
+
+
+
+All servers mentionned above have their configuration in a KS file.
+There are two extra KS as well"features" :  
+* A quick custom install
+* VmWare standard install (nothing configured infact)
+
+
+
+
+
+
 
 5. ## TODO - reminders for myself :)
 
