@@ -48,7 +48,7 @@ Because sometimes, a picture is better than a thousand of words...
 
 4. ## How to use custom KS to build an autodeploy ISO
 
-First of all, you need to download the ISO of Vmware ESXi 6.5
+First of all, you need to download the ISO of Vmware ESXi 6.5  
 https://my.vmware.com/web/vmware/details?downloadGroup=ESXI65U1&productId=614&rPId=21456
 
 
