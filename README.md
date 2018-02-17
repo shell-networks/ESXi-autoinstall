@@ -3,7 +3,16 @@ Auto install KS files (and other stuff) to autodeploy ESXi 6.5
 
 Personnal project to automate deployment of Virtualisation part in my HomeLab
 
-## 1 Home Lab Physical Servers
+In this repo is a short explanation of the hardware and network part of the lab.
+Then an How-to, to build your own custom ESXi ISO, to autodeploy the configuration.
+
+1. Home Lab Physical Servers
+2. Esxi Lab Virtual Servers
+3. Network Architecture
+4. How to use custom KS files to build an autodeploy ISO
+
+
+1. ## Home Lab Physical Servers
 
 Here is a small overview (sorry for the cabling mess.. Hey this is home lab after all !)
 
@@ -30,16 +39,16 @@ There is two Dell PowerEdge R610 Servers with following Hardware configuration
 Same config as first one but only 48GB of RAM
 
 
-## Esxi "Lab" Virtual Servers
+2. ## Esxi "Lab" Virtual Servers
 
 - Lab 01 and 02
 
 They are just nested ESXi to test configuration before apllying on "prod" ESXi
 
 
-## 2 Network Architecture
+3. ## 2 Network Architecture
 
-## 3 How to implement Autodeploy with custom KickStart files
+4. ## How to use custom KS to build an autodeploy ISO
 
 
 
