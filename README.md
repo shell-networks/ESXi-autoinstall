@@ -62,7 +62,7 @@ http://www.imgburn.com/index.php?act=download
 Once you have finished to download the ISO, copy the content of the ISO, in a new folder. Let's call this folder **Files_original**
 
 Copy the entire content of the **Autodeploy** folder of this repo, at the root of the **Files_original** folder.  
-You just copied the Kisckstart files and custom boot files... well, now lets create a new ISO !
+You just copied the Kickstart files and custom boot files... well, now lets create a new ISO !
 
 Launch ImgBurn and select **Create image file from files/folder**  
 ![2-ImgBurn](/Pictures/2-ImgBurn.jpg)  
@@ -74,6 +74,13 @@ In the advanced tab, tab bootable disc, hit the box "Make image bootable".
 Select the boot image **isolinux.bin**, at the root of your **Files_original** folder.  
 Hit the box "patch boot information table".  
 ![4-ImgBurn](/Pictures/4-ImgBurn.jpg)
+
+Finally you can build your ISO (you will be prompted for a name).
+
+Now, lets boot on this ISO to see the result.  
+As i have a Dell server, i will use the virtual media feature, from the iDRAC to mount the ISO on my server.
+(Sorry for the french interface ahah)
+![5-iDRAC-VirtualMedia](/Pictures/5-iDRAC-VirtualMedia.jpg)
 
 
 
