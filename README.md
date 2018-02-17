@@ -6,10 +6,10 @@ Personnal project to automate deployment of Virtualisation part in my HomeLab
 In this repo is a short explanation of the hardware and network part of the lab.
 Then an How-to, to build your own custom ESXi ISO, to autodeploy the configuration.
 
-1. Home Lab Physical Servers
-2. Esxi Lab Virtual Servers
-3. Network Architecture
-4. How to use custom KS files to build an autodeploy ISO
+1 Home Lab Physical Servers
+2 Esxi Lab Virtual Servers
+3 Network Architecture
+4 How to use custom KS files to build an autodeploy ISO
 
 
 1. ## Home Lab Physical Servers
