@@ -7,13 +7,18 @@ Personnal project to automate deployment of Virtualisation part in my HomeLab
 
 There is two Dell PowerEdge R610 Servers with following Hardware configuration 
 
-1. Esx01
+- Esx01
 
 2 Intel Xeon E5620  @2,4Ghz
+
 96GB of DDR3 RAM
+
 2 SAS Disks - 15k - 136Gb : RAID1 to host Esxi and Scratch log
+
 4 SAS Disks - 10k - 550Gb : RAID5 to host virtual machines
+
 4 integrated Gigabit Network interfaces (iSCSI compliant)
+
 4 Additional Gigabit Network interfaces
 
 2. Esx02
