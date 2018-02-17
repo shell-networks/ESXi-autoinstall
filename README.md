@@ -78,8 +78,8 @@ Hit the box "patch boot information table".
 Finally you can build your ISO (you will be prompted for a name).
 
 Now, lets boot on this ISO to see the result.  
-As i have a Dell server, i will use the virtual media feature, from the iDRAC to mount the ISO on my server.
-(Sorry for the french interface ahah)
+As i have a Dell server, i will use the virtual media feature, from the iDRAC to mount the ISO on my server.  
+(Sorry for the french interface ahah)  
 ![5-iDRAC-VirtualMedia](/Pictures/5-iDRAC-VirtualMedia.jpg)
 
 
