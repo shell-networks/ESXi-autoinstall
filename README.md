@@ -70,6 +70,10 @@ Launch ImgBurn and select **Create image file from files/folder**
 Choose the folder **Files_original** as the source for the ISO creation, then for destination... wherever you want.
 ![3-ImgBurn](/Pictures/3-ImgBurn.jpg)  
 
+In the advanced tab, tab bootable disc, hit the box "Make image bootable".  
+Select the boot image **isolinux.bin**, at the root of your **Files_original** folder.  
+Hit the box "patch boot information table".  
+![4-ImgBurn](/Pictures/4-ImgBurn.jpg)
 
 
 
