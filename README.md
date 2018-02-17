@@ -42,16 +42,22 @@ Same config as first one but only 48GB of RAM
 They are just nested ESXi to test configuration before apllying on "prod" ESXi
 
 
-3. ## 2 Network Architecture
+3. ## Network Architecture
 
-Because sometimes, a picture is better than a thousand of words...
+Because sometimes, a picture is better than a thousand of words... 
+With this you will have a better understanding of the differents vlans that i configured in the Kickstart files.
 
-4. ## How to use custom KS to build an autodeploy ISO
+
+
+4. ## How to use custom KS and build a personnalised ESXi autodeploy ISO
 
 First of all, you need to download the ISO of Vmware ESXi 6.5  
 https://my.vmware.com/web/vmware/details?downloadGroup=ESXI65U1&productId=614&rPId=21456
 
+Then download a software to create bootable ISO.  
+Personnaly i use ImgBurn, the installer is available in the Tools folder of this repository.
 
+Once you have finished to download the ISO, copy the content of the ISO, in a new folder. Let's call this folder **Files_original**
 
 
 All servers mentionned above have their configuration in a KS file.
