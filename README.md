@@ -88,6 +88,9 @@ If you have this menu, then you just have to choose wich ESXi you wich ton insta
 There we go ! Just have a coffea now.  
 ![7-iDRAC-VirtualMedia](/Pictures/7-iDRAC-VirtualMedia.jpg)
 
+When the following messages appears, your ESXi is ready.  
+![8-iDRAC-VirtualMedia](/Pictures/8-iDRAC-VirtualMedia.jpg)
+
 All servers mentionned in differents points above have their configuration in a KS file.
 There are two extra KS "features" as well:  
 * A quick custom install
