@@ -30,6 +30,7 @@ Harware configuration for servers :
 4 SAS Disks - 10k - 550Gb : RAID5 to host virtual machines  
 4 integrated Gigabit Network interfaces (iSCSI compliant)  
 4 Additional Gigabit Network interfaces  
+iDRAC Management Port 
 
 - Esx02 (obviously on bottom)
 
@@ -44,7 +45,7 @@ They are just nested ESXi to test configuration before apllying on "prod" ESXi
 
 3. ## Network Architecture
 
-Because sometimes, a picture is better than a thousand of words... 
+Because sometimes, a picture is better than a thousand of words...  
 With this you will have a better understanding of the differents vlans that i configured in the Kickstart files.
 
 
@@ -58,6 +59,12 @@ Then download a software to create bootable ISO.
 Personnaly i use ImgBurn, the installer is available in the Tools folder of this repository.
 
 Once you have finished to download the ISO, copy the content of the ISO, in a new folder. Let's call this folder **Files_original**
+
+Copy the content of the **Autodeploy** folder of this repo, at the root of the **Files_original** folder.  
+You just copied the Kisckstart files and custom boot files... well, now lets create a new ISO !
+
+
+
 
 
 All servers mentionned above have their configuration in a KS file.
