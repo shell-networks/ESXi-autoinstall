@@ -47,6 +47,7 @@ They are just nested ESXi to test configuration before apllying on "prod" ESXi
 
 Because sometimes, a picture is better than a thousand of words...  
 With this you will have a better understanding of the differents vlans that i configured in the Kickstart files.  
+As you can notice there is a Pfsense Virtual machine for inter-vlan routing, but this is out of the scope of this repository.
 ![10-Network-archi](/Pictures/10-Network-archi.jpg)  
 
 Then once deployed, here is the architecture of the differents vswitches, their associated vmnic, and vmkernels.  
