@@ -50,7 +50,7 @@ With this you will have a better understanding of the differents vlans that i co
 As you can notice there is a Pfsense Virtual machine for inter-vlan routing, but this is out of the scope of this repository.
 ![10-Network-archi](/Pictures/10-Network-archi.jpg)  
 
-Then once deployed, here is the architecture of the differents vswitches, their associated vmnic, and vmkernels.  
+Then once deployed, here is the architecture of the differents vswitches, their associated vmnics, and vmkernels.  
 ![9-vswitches](/Pictures/9-vswitches.jpg)  
 
 4. ## How to use custom KS and build a personnalised ESXi autodeploy ISO
