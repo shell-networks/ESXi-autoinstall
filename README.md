@@ -46,11 +46,11 @@ They are just nested ESXi to test configuration before apllying on "prod" ESXi
 3. ## Network Architecture
 
 Because sometimes, a picture is better than a thousand of words...  
-With this you will have a better understanding of the differents vlans that i configured in the Kickstart files.
+With this you will have a better understanding of the differents vlans that i configured in the Kickstart files.  
+![10-Network-archi](/Pictures/10-Network-archi.jpg)  
 
 Then once deployed, here is the architecture of the differents vswitches, their associated vmnic, and vmkernels.  
 ![9-vswitches](/Pictures/9-vswitches.jpg)  
-
 
 4. ## How to use custom KS and build a personnalised ESXi autodeploy ISO
 
